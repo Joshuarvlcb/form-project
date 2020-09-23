@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="#" method="POST">
+        <h1>Project form</h1>
+        <!-- My user name and password inputs -->
+        <section>
+            <fieldset class="fieldset_1">
+                <legend>User information</legend>
+                <ul>
+                    <li><label for="userName">User name</label>
+                        <input type="text"></li>
+                    <li><Label for="password">Password</Label>
+                        <input type="password" name="user.password" id="password"></li>
+                </ul>
+            </fieldset>
+        </section>
+        <br>
+        <!-- My radio buttons -->
+        <section>
+            <fieldset class="fieldset_1">
+                <legend>What drink do you want?</legend>
+                <li>
+                    <input type="radio" name="user.Coke" id="drink">
+                    <label for="drinks">Coke</label>
+                </li>
+                <li>
+                    <input type="radio" name="user.DietCoke" id="drink">
+                    <label for ="drink">DietCoke</label> 
+                </li>
+                <li>
+                    <input type="radio" name="user.Sprite" id="drink">
+                    <label for ="drinks">Sprite</label>
+                </li>
+                <li>
+                    <input type="radio" name="user.Water" id="drink">
+                    <label for ="drinks">Water</label>
+                </li>
+                    
+        </section>
+        </fieldset>
+        <!-- this is my checkbox for pizza perferennce -->
+        <section>
+            <fieldset class="fieldset_1">
+                <legend>Pizza preference</legend>
+
+                <li>
+
+                    <input type="checkbox" name="user.plain" id="preference">
+                    <label for= "preference">Plain</label>
+                </li>
+
+
+                <li>
+                    <input type="checkbox" name="user.peporoni" id="perferennce">
+                    <label for= "preference">peporoni</label>
+                </li>
+
+                <li>
+                    <input type="checkbox" name="user.chicken" id="perferennce">
+                    <label for= "preference">Chiken</label>
+                </li>
+
+                <li>
+                    <input type="checkbox" name="user.sausage" id="drink">
+                    <label for= "preference">sausage</label>
+                </li>
+
+
+        </section>
+        </fieldset>
+        <!-- this is my text area -->
+        <section>
+            <fieldset class="fieldset_1">
+                <legend>Special Instructions</legend>
+                <li><Label for="INstructions">Special Instructions</Label>
+                </li>
+                <textarea id="INstructions" placeholder="Description" name="user.INstruction" cols="30"
+                rows="20"></textarea>
+
+                <!-- my submit button -->
+                <br><br><input type="submit" value="submit">
+        </section>
+        </fieldset>
+    </form>
+</body>
+
+</html>
